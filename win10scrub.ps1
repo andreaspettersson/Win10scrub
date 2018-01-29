@@ -43,9 +43,9 @@ $AppList = @(
     "*Microsoft.BingNews*"
     "*A278AB0D.DisneyMagicKingdoms*"
     "*WinZipComputing.WinZipUniversal*"
-    "*king.com.BubbleWitch3Saga*"
-    "*king.com.CandyCrushSodaSaga*"
+    "*king.com*"
     "*SpotifyAB.SpotifyMusic*"
+    "*Plex*"
 )
 ForEach($app in $AppList){
     Get-AppxPackage -Name $App | Remove-AppxPackage

@@ -1,6 +1,7 @@
 # Uninstall from current user and unregister for installation on new users.
 # Remove item in AppList if you want to keep some apps.
 # Run script in elevated mode (run as administrator)
+# You must set executionpolicy to remotesigned: set-executionpolicy remotesigned
 # Also removes Onedrive
 # Se more: https://www.pdq.com/blog/removing-windows-10-apps-with-powershell/
 

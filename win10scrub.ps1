@@ -19,7 +19,6 @@ $AppList = @(
     "*MSPaint*"
     "*Office.OneNote*"
     "*OneConnect*"
-    "*People*"
     "*Print3D*"
     "*SkypeApp*"
     "*Wallet*"
@@ -46,6 +45,8 @@ $AppList = @(
     "*king.com*"
     "*SpotifyAB.SpotifyMusic*"
     "*Plex*"
+    "*twitter*"
+    "*economy*"
 )
 ForEach($app in $AppList){
     Get-AppxPackage -Name $App | Remove-AppxPackage

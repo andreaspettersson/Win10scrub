@@ -8,12 +8,16 @@
 $AppList = @(
     "*3DBuilder*"
     "*BingWeather*"
+    "*BingFinance*"
+    "*BingSports*"
+    "*BingNews*"
     "*DesktopAppInstaller*"
     "*GetHelp*"
     "*Getstarted*"
     "*Messaging*"
     "*Microsoft3DViewer*"
     "*MicrosoftOfficeHub*"
+    "*Microsoft.Office.Sway*"
     "*MicrosoftSolitaireCollection*"
     "*MicrosoftStickyNotes*"
     "*MSPaint*"
@@ -39,14 +43,12 @@ $AppList = @(
     "*Advertising*"
     "*A278AB0D.MarchofEmpires*"
     "*89006A2E.AutodeskSketchBook*"
-    "*Microsoft.BingNews*"
     "*A278AB0D.DisneyMagicKingdoms*"
     "*WinZipComputing.WinZipUniversal*"
     "*king.com*"
     "*SpotifyAB.SpotifyMusic*"
     "*Plex*"
     "*twitter*"
-    "*economy*"
 )
 ForEach($app in $AppList){
     Get-AppxPackage -Name $App | Remove-AppxPackage
